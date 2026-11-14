@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruang Fungsi | Belajar Matematika</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f3ff;color:#292344}
+header{background:#5b45a8;color:white;padding:24px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+header h2{margin:0}
+nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
+.hero{padding:65px 8%;background:linear-gradient(120deg,#6b55bd,#a28be8);color:white}
+.hero h1{font-size:40px;margin:0 0 12px}
+.hero p{max-width:600px;line-height:1.7}
+.btn{display:inline-block;background:white;color:#5b45a8;padding:12px 20px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:12px}
+.container{max-width:1000px;margin:auto;padding:35px 20px}
+.card{background:white;padding:24px;border-radius:15px;margin:18px 0;box-shadow:0 4px 15px #34236a12}
+h2{color:#6049ad}
+h3{color:#6049ad}
+p,li{line-height:1.7}
+.example{background:#f0ebff;padding:15px;border-radius:10px}
+.question{border-bottom:1px solid #eee;padding:15px 0}
+.question label{display:block;margin:10px 0;cursor:pointer}
+button{background:#6049ad;color:white;border:0;padding:12px 20px;border-radius:8px;cursor:pointer;font-size:15px}
+button:hover{background:#48358c}
+#result{font-weight:bold;margin-top:18px;font-size:18px}
+footer{text-align:center;padding:25px;background:#292344;color:white}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Ruang Fungsi</h2>
+<nav>
+<a href="#materi">Materi</a>
+<a href="#contoh">Contoh</a>
+<a href="#kuis">Kuis</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Belajar Fungsi Matematika</h1>
+<p>Selamat datang di Ruang Fungsi! Pelajari pengertian, jenis, domain, kodomain, dan range fungsi. Setelah itu, uji pemahamanmu melalui 10 soal latihan.</p>
+<a class="btn" href="#materi">Mulai Belajar</a>
+</section>
+
+<main class="container">
+<section id="materi" class="card">
+<h2>01. Pengertian Fungsi</h2>
+<p>Fungsi adalah hubungan antara dua himpunan yang memasangkan setiap anggota himpunan pertama dengan tepat satu anggota himpunan kedua.</p>
+<p>Fungsi biasanya ditulis dengan notasi f(x), yang dibaca sebagai fungsi dari x.</p>
+</section>
+
+<section class="card">
+<h2>02. Domain, Kodomain, dan Range</h2>
+<ul>
+<li><b>Domain:</b> himpunan semua nilai masukan (input).</li>
+<li><b>Kodomain:</b> himpunan tujuan atau kemungkinan nilai keluaran.</li>
+<li><b>Range:</b> himpunan nilai keluaran yang benar-benar dihasilkan.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>03. Jenis-Jenis Fungsi</h2>
+<ul>
+<li><b>Fungsi Linear:</b> fungsi dengan pangkat tertinggi variabel satu, contohnya f(x) = 2x + 3.</li>
+<li><b>Fungsi Kuadrat:</b> fungsi dengan pangkat tertinggi variabel dua, contohnya f(x) = x² + 2x + 1.</li>
+<li><b>Fungsi Konstan:</b> fungsi yang memiliki nilai tetap, contohnya f(x) = 5.</li>
+</ul>
+</section>
+
+<section id="contoh" class="card">
+<h2>04. Contoh Soal dan Pembahasan</h2>
+<div class="example">
+<p><b>Soal:</b> Diketahui f(x) = 2x + 3. Tentukan nilai f(4)!</p>
+<p><b>Penyelesaian:</b></p>
+<p>f(x) = 2x + 3</p>
+<p>f(4) = 2(4) + 3</p>
+<p>f(4) = 8 + 3 = 11</p>
+<p><b>Jadi, nilai f(4) adalah 11.</b></p>
+</div>
+</section>
+
+<section id="kuis" class="card">
+<h2>05. Latihan Soal</h2>
+<p>Pilih satu jawaban yang paling tepat untuk setiap soal.</p>
+<form id="quiz">
+
+<div class="question">
+<p>1. Apa yang dimaksud dengan fungsi?</p>
+<label><input type="radio" name="q1" value="a"> Hubungan dua himpunan tanpa aturan</label>
+<label><input type="radio" name="q1" value="b"> Hubungan yang memasangkan setiap anggota domain dengan tepat satu anggota kodomain</label>
+<label><input type="radio" name="q1" value="c"> Kumpulan angka saja</label>
+</div>
+
+<div class="question">
+<p>2. Himpunan nilai masukan disebut...</p>
+<label><input type="radio" name="q2" value="a"> Range</label>
+<label><input type="radio" name="q2" value="b"> Kodomain</label>
+<label><input type="radio" name="q2" value="c"> Domain</label>
+</div>
+
+<div class="question">
+<p>3. Jika f(x) = 2x + 3, nilai f(2) adalah...</p>
+<label><input type="radio" name="q3" value="a"> 7</label>
+<label><input type="radio" name="q3" value="b"> 5</label>
+<label><input type="radio" name="q3" value="c"> 8</label>
+</div>
+
+<div class="question">
+<p>4. Himpunan nilai keluaran yang dihasilkan disebut...</p>
+<label><input type="radio" name="q4" value="a"> Domain</label>
+<label><input type="radio" name="q4" value="b"> Range</label>
+<label><input type="radio" name="q4" value="c"> Variabel</label>
+</div>
+
+<div class="question">
+<p>5. Bentuk umum fungsi linear adalah...</p>
+<label><input type="radio" name="q5" value="a"> ax² + bx + c</label>
+<label><input type="radio" name="q5" value="b"> ax³ + b</label>
+<label><input type="radio" name="q5" value="c"> ax + b</label>
+</div>
+
+<div class="question">
+<p>6. Jika f(x) = x + 5, nilai f(3) adalah...</p>
+<label><input type="radio" name="q6" value="a"> 8</label>
+<label><input type="radio" name="q6" value="b"> 15</label>
+<label><input type="radio" name="q6" value="c"> 2</label>
+</div>
+
+<div class="question">
+<p>7. Fungsi dengan pangkat tertinggi variabel dua disebut...</p>
+<label><input type="radio" name="q7" value="a"> Fungsi linear</label>
+<label><input type="radio" name="q7" value="b"> Fungsi kuadrat</label>
+<label><input type="radio" name="q7" value="c"> Fungsi konstan</label>
+</div>
+
+<div class="question">
+<p>8. Jika f(x) = 3x, nilai f(4) adalah...</p>
+<label><input type="radio" name="q8" value="a"> 7</label>
+<label><input type="radio" name="q8" value="b"> 9</label>
+<label><input type="radio" name="q8" value="c"> 12</label>
+</div>
+
+<div class="question">
+<p>9. Fungsi konstan adalah fungsi yang...</p>
+<label><input type="radio" name="q9" value="a"> Nilainya selalu tetap</label>
+<label><input type="radio" name="q9" value="b"> Selalu berubah</label>
+<label><input type="radio" name="q9" value="c"> Tidak memiliki nilai</label>
+</div>
+
+<div class="question">
+<p>10. Jika f(x) = x², nilai f(3) adalah...</p>
+<label><input type="radio" name="q10" value="a"> 6</label>
+<label><input type="radio" name="q10" value="b"> 9</label>
+<label><input type="radio" name="q10" value="c"> 12</label>
+</div>
+
+<button type="button" onclick="checkAnswers()">Periksa Jawaban</button>
+</form>
+<div id="result"></div>
+</section>
+</main>
+
+<footer>
+<p>Ruang Fungsi | Media Pembelajaran Matematika</p>
+<p>Belajar, Berlatih, dan Memahami Fungsi.</p>
+</footer>
+
+<script>
+function checkAnswers(){
+ const answers={q1:"b",q2:"c",q3:"a",q4:"b",q5:"c",q6:"a",q7:"b",q8:"c",q9:"a",q10:"b"};
+ let score=0;
+ for(let q in answers){
+  let selected=document.querySelector('input[name="'+q+'"]:checked');
+  if(selected && selected.value===answers[q]) score++;
+ }
+ document.getElementById("result").innerHTML=
+ "Nilai kamu: "+(score*10)+"/100 ("+score+" dari 10 jawaban benar)";
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruang Fungsi | Belajar Matematika</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f3ff;color:#292344}
+header{background:#5b45a8;color:white;padding:24px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+header h2{margin:0}
+nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
+.hero{padding:65px 8%;background:linear-gradient(120deg,#6b55bd,#a28be8);color:white}
+.hero h1{font-size:40px;margin:0 0 12px}
+.hero p{max-width:600px;line-height:1.7}
+.btn{display:inline-block;background:white;color:#5b45a8;padding:12px 20px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:12px}
+.container{max-width:1000px;margin:auto;padding:35px 20px}
+.card{background:white;padding:24px;border-radius:15px;margin:18px 0;box-shadow:0 4px 15px #34236a12}
+h2{color:#6049ad}
+h3{color:#6049ad}
+p,li{line-height:1.7}
+.example{background:#f0ebff;padding:15px;border-radius:10px}
+.question{border-bottom:1px solid #eee;padding:15px 0}
+.question label{display:block;margin:10px 0;cursor:pointer}
+button{background:#6049ad;color:white;border:0;padding:12px 20px;border-radius:8px;cursor:pointer;font-size:15px}
+button:hover{background:#48358c}
+#result{font-weight:bold;margin-top:18px;font-size:18px}
+footer{text-align:center;padding:25px;background:#292344;color:white}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Ruang Fungsi</h2>
+<nav>
+<a href="#materi">Materi</a>
+<a href="#contoh">Contoh</a>
+<a href="#kuis">Kuis</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Belajar Fungsi Matematika</h1>
+<p>Selamat datang di Ruang Fungsi! Pelajari pengertian, jenis, domain, kodomain, dan range fungsi. Setelah itu, uji pemahamanmu melalui 10 soal latihan.</p>
+<a class="btn" href="#materi">Mulai Belajar</a>
+</section>
+
+<main class="container">
+<section id="materi" class="card">
+<h2>01. Pengertian Fungsi</h2>
+<p>Fungsi adalah hubungan antara dua himpunan yang memasangkan setiap anggota himpunan pertama dengan tepat satu anggota himpunan kedua.</p>
+<p>Fungsi biasanya ditulis dengan notasi f(x), yang dibaca sebagai fungsi dari x.</p>
+</section>
+
+<section class="card">
+<h2>02. Domain, Kodomain, dan Range</h2>
+<ul>
+<li><b>Domain:</b> himpunan semua nilai masukan (input).</li>
+<li><b>Kodomain:</b> himpunan tujuan atau kemungkinan nilai keluaran.</li>
+<li><b>Range:</b> himpunan nilai keluaran yang benar-benar dihasilkan.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>03. Jenis-Jenis Fungsi</h2>
+<ul>
+<li><b>Fungsi Linear:</b> fungsi dengan pangkat tertinggi variabel satu, contohnya f(x) = 2x + 3.</li>
+<li><b>Fungsi Kuadrat:</b> fungsi dengan pangkat tertinggi variabel dua, contohnya f(x) = x² + 2x + 1.</li>
+<li><b>Fungsi Konstan:</b> fungsi yang memiliki nilai tetap, contohnya f(x) = 5.</li>
+</ul>
+</section>
+
+<section id="contoh" class="card">
+<h2>04. Contoh Soal dan Pembahasan</h2>
+<div class="example">
+<p><b>Soal:</b> Diketahui f(x) = 2x + 3. Tentukan nilai f(4)!</p>
+<p><b>Penyelesaian:</b></p>
+<p>f(x) = 2x + 3</p>
+<p>f(4) = 2(4) + 3</p>
+<p>f(4) = 8 + 3 = 11</p>
+<p><b>Jadi, nilai f(4) adalah 11.</b></p>
+</div>
+</section>
+
+<section id="kuis" class="card">
+<h2>05. Latihan Soal</h2>
+<p>Pilih satu jawaban yang paling tepat untuk setiap soal.</p>
+<form id="quiz">
+
+<div class="question">
+<p>1. Apa yang dimaksud dengan fungsi?</p>
+<label><input type="radio" name="q1" value="a"> Hubungan dua himpunan tanpa aturan</label>
+<label><input type="radio" name="q1" value="b"> Hubungan yang memasangkan setiap anggota domain dengan tepat satu anggota kodomain</label>
+<label><input type="radio" name="q1" value="c"> Kumpulan angka saja</label>
+</div>
+
+<div class="question">
+<p>2. Himpunan nilai masukan disebut...</p>
+<label><input type="radio" name="q2" value="a"> Range</label>
+<label><input type="radio" name="q2" value="b"> Kodomain</label>
+<label><input type="radio" name="q2" value="c"> Domain</label>
+</div>
+
+<div class="question">
+<p>3. Jika f(x) = 2x + 3, nilai f(2) adalah...</p>
+<label><input type="radio" name="q3" value="a"> 7</label>
+<label><input type="radio" name="q3" value="b"> 5</label>
+<label><input type="radio" name="q3" value="c"> 8</label>
+</div>
+
+<div class="question">
+<p>4. Himpunan nilai keluaran yang dihasilkan disebut...</p>
+<label><input type="radio" name="q4" value="a"> Domain</label>
+<label><input type="radio" name="q4" value="b"> Range</label>
+<label><input type="radio" name="q4" value="c"> Variabel</label>
+</div>
+
+<div class="question">
+<p>5. Bentuk umum fungsi linear adalah...</p>
+<label><input type="radio" name="q5" value="a"> ax² + bx + c</label>
+<label><input type="radio" name="q5" value="b"> ax³ + b</label>
+<label><input type="radio" name="q5" value="c"> ax + b</label>
+</div>
+
+<div class="question">
+<p>6. Jika f(x) = x + 5, nilai f(3) adalah...</p>
+<label><input type="radio" name="q6" value="a"> 8</label>
+<label><input type="radio" name="q6" value="b"> 15</label>
+<label><input type="radio" name="q6" value="c"> 2</label>
+</div>
+
+<div class="question">
+<p>7. Fungsi dengan pangkat tertinggi variabel dua disebut...</p>
+<label><input type="radio" name="q7" value="a"> Fungsi linear</label>
+<label><input type="radio" name="q7" value="b"> Fungsi kuadrat</label>
+<label><input type="radio" name="q7" value="c"> Fungsi konstan</label>
+</div>
+
+<div class="question">
+<p>8. Jika f(x) = 3x, nilai f(4) adalah...</p>
+<label><input type="radio" name="q8" value="a"> 7</label>
+<label><input type="radio" name="q8" value="b"> 9</label>
+<label><input type="radio" name="q8" value="c"> 12</label>
+</div>
+
+<div class="question">
+<p>9. Fungsi konstan adalah fungsi yang...</p>
+<label><input type="radio" name="q9" value="a"> Nilainya selalu tetap</label>
+<label><input type="radio" name="q9" value="b"> Selalu berubah</label>
+<label><input type="radio" name="q9" value="c"> Tidak memiliki nilai</label>
+</div>
+
+<div class="question">
+<p>10. Jika f(x) = x², nilai f(3) adalah...</p>
+<label><input type="radio" name="q10" value="a"> 6</label>
+<label><input type="radio" name="q10" value="b"> 9</label>
+<label><input type="radio" name="q10" value="c"> 12</label>
+</div>
+
+<button type="button" onclick="checkAnswers()">Periksa Jawaban</button>
+</form>
+<div id="result"></div>
+</section>
+</main>
+
+<footer>
+<p>Ruang Fungsi | Media Pembelajaran Matematika</p>
+<p>Belajar, Berlatih, dan Memahami Fungsi.</p>
+</footer>
+
+<script>
+function checkAnswers(){
+ const answers={q1:"b",q2:"c",q3:"a",q4:"b",q5:"c",q6:"a",q7:"b",q8:"c",q9:"a",q10:"b"};
+ let score=0;
+ for(let q in answers){
+  let selected=document.querySelector('input[name="'+q+'"]:checked');
+  if(selected && selected.value===answers[q]) score++;
+ }
+ document.getElementById("result").innerHTML=
+ "Nilai kamu: "+(score*10)+"/100 ("+score+" dari 10 jawaban benar)";
+}
+</script>
+
+</body>
+</html>
